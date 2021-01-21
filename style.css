@@ -1,0 +1,598 @@
+@font-face {
+	font-family: 'Myriad Pro Semibold';
+	font-style: normal;
+	font-weight: normal;
+	src: local('Myriad Pro Semibold'), url('MYRIADPRO-SEMIBOLD.woff') format('woff');
+}
+@font-face {
+	font-family: 'Myriad Pro Regular';
+	font-style: normal;
+	font-weight: normal;
+	src: local('Myriad Pro Regular'), url('MYRIADPRO-REGULAR.woff') format('woff');
+}
+@font-face {
+	font-family: 'Myriad Pro Bold Condensed';
+	font-style: normal;
+	font-weight: normal;
+	src: local('Myriad Pro Bold Condensed'), url('MYRIADPRO-BOLDCOND.woff') format('woff');
+}
+@font-face {
+	font-family: 'Myriad Pro Bold';
+	font-style: normal;
+	font-weight: normal;
+	src: local('Myriad Pro Bold'), url('MYRIADPRO-BOLD.woff') format('woff');
+}
+@font-face {
+	font-family: 'Myriad Pro SemiboldIt';
+	font-style: normal;
+	font-weight: normal;
+	src: local('Myriad Pro Semibold Italic'), url('MYRIADPRO-SEMIBOLDIT.woff') format('woff');
+}
+.html {
+}
+header {
+	height: 230px;
+	background-color: #dcdcdc;
+}
+header a {
+	color: #777777;
+	font-family: 'Myriad Pro Regular';
+	font-size: 40px;
+}
+input::placeholder {
+  color: #767676;
+  opacity: 1;
+}
+.insert{
+  cursor: pointer;
+}
+.logo{
+  cursor: pointer;
+}
+.toleft {
+	margin-left: auto;
+	"
+}
+.tels a {
+	text-decoration: none;
+}
+.tels a:hover {
+	text-decoration: underline;
+}.card-img-top a span{position: absolute;
+bottom: 0;
+width: 100%;
+left: 0;}
+.card-img-top a {
+	font-family: 'Myriad Pro Bold';
+	text-decoration: none;
+	color: black;
+position: absolute;
+left: 0;
+right: 0;
+height: 100%;
+}
+.card-img-top a:hover  span{
+	text-decoration: underline;
+	color: #0099de;
+}
+
+header div {
+	display: flex;
+	flex-direction: column;
+}
+container {
+	width: 1000px;
+	display: flex;
+	margin: auto;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+footer {
+	height: 148px;
+	background-color: #777777;
+	flex-shrink: 0;
+	font-family: 'Myriad Pro Regular';
+	color: white;
+	font-size: 24px;
+	display: flex;
+	flex-flow: column;
+	flex-direction: column;
+	flex-direction: row;
+	align-content: center;
+	align-items: center;
+	;
+	letter-spacing: 1px;
+}
+body {
+	margin: 0;
+	padding: 0;
+}
+.section-form {
+	background-color: #f8f8f8;
+	background-image: url(form.png);
+	height: 480px;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.border-form {
+	box-shadow: 0 0 18px rgba(0, 0, 0, 0.1);
+	height: 13px;
+}
+.logo {
+	height: 100px;
+	width: 300px;
+}
+.form-card input {
+	margin-top: 28boxpx;
+	border: 0;
+	width: 290px;
+	height: 49px;
+	margin-top: 23px;
+}
+.form-card div form h2 {
+	color: white;
+	font-family: 'Myriad Pro Regular';
+	margin-top: 27px;
+	margin-left: 22px;
+	margin-right: 21px;
+}
+.form-card {
+	height: 358px;
+	width: 358px;
+	position: relative;
+	margin-left: 98px;
+	top: 27px;
+}
+.form-card h2 {
+	padding: 0;
+	margin: 0;
+	margin-top: 0px;
+	margin-top: 38px;
+}
+.form-box {
+	height: 275px;
+	background-color: #9da3d7;
+	bottom: 0;
+	position: absolute;
+	width: 100%;
+	text-align: center;
+}
+.slider {
+	width: 100%;
+}
+form .insert {
+	font-family: 'Myriad Pro Regular';
+	color: black;
+	background-color: #ffc087;
+	border: none;
+	display: inline-block;
+	text-decoration: none;
+	font-size: 24px;
+	text-transform: uppercase;
+}
+form .tel {
+	padding-left: 18px;
+	font-family: 'Myriad Pro Regular';
+	border: none;
+	display: inline-block;
+	text-decoration: none;
+	font-size: 24px;
+	width: 272px;
+	/*color: #767676;
+	*/
+}
+.slides {
+}
+.radiobuttons {
+	display: flex;
+	width: 100%;
+	justify-content: center;
+}
+.section-slider {
+	display: flex;
+	justify-content: center;
+	height: 500px;
+}
+h2 {
+	text-transform: uppercase;
+	font-weight: initial;
+	font-family: 'Myriad Pro Semibold';
+	color: #9da3d7;
+	font-size: 24px;
+	display: flex;
+	justify-content: center;
+	padding-top: 46px;
+	text-align: center
+}
+#slider-wrapper {
+	width: 707px;
+	height: 303px;
+	margin: 24px auto;
+	position: relative;
+	margin-bottom: 0px;
+	box-shadow: 0 0 8px rgba(0, 0, 0, 0.17);
+}
+#s1 {
+	position: absolute;
+	left: 50%;
+	bottom: 40px;
+	margin-left: -72px;
+	border-radius: 20px;
+	cursor: pointer;
+	z-index: 999;
+}
+.card #s1 {
+	margin-left: -115px;
+}
+.card #s2 {
+	margin-left: 70px;
+}
+.card #s3 {
+	margin-left: 250px;
+}
+#s2 {
+	position: absolute;
+	left: 50%;
+	bottom: 40px;
+	margin-left: -17px;
+	border-radius: 20px;
+	cursor: pointer;
+	z-index: 999;
+}
+#s3 {
+	position: absolute;
+	left: 50%;
+	bottom: 40px;
+	margin-left: 38px;
+	border-radius: 20px;
+	cursor: pointer;
+	z-index: 999;
+}
+#s1:hover,#s2:hover,#s3:hover {
+	opacity: .70;
+}
+.inner-wrapper {
+  width: 692px;
+margin: 8px;
+overflow: hidden;
+	height: 410px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	margin-bottom: 0px;
+	overflow: hidden;
+}
+.control {
+	display: none;
+}
+#Slide1:checked~.overflow-wrapper {
+	margin-left: 0%;
+}
+#Slide2:checked~.overflow-wrapper {
+	margin-left: -100%;
+}
+#Slide3:checked~.overflow-wrapper {
+	margin-left: -200%;
+}
+#Slide4:checked~.overflow-wrapper {
+	margin-left: -300%;
+}
+#Slide1:checked+#s1 {
+	opacity: 1;
+}
+#Slide2:checked+#s2 {
+	opacity: 1;
+}
+#Slide3:checked+#s3 {
+	opacity: 1;
+}
+.overflow-wrapper {
+	width: 400%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	/*overflow-y: hidden;
+	*/
+	z-index: 1;
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+}
+.slide img {
+  float: left;
+  width: 692px;
+  height: 287px;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.1);
+}
+.radio {
+	margin: 0.5rem;
+}
+input[type="radio"] {
+	position: absolute;
+	opacity: 0;
+}
+.radio-label {
+	z-index: 100000;
+	position: absolute;
+}
+/*.radio input[type="radio"] + */
+.radio-label:before {
+	content: "";
+	background: #f4f4f4;
+	border-radius: 100%;
+	border: 3px solid #ddd;
+	display: inline-block;
+	width: 29px;
+	height: 29px;
+	position: relative;
+	top: -0.2em;
+	margin-right: 1em;
+	vertical-align: top;
+	cursor: pointer;
+	text-align: center;
+	transition: all 250ms ease;
+}
+.card input[type="radio"]:checked+.radio-label:before {
+	background-color: #3197ee;
+	box-shadow: inset 0 0 0 4px #fff;
+	border: 2px solid #979797;
+}
+.card .radio-label:before {
+	content: "";
+background: #fff;
+	border: 2px solid #979797;
+	width: 16px;
+	height: 16px;
+}
+/*.radio */
+input[type="radio"]:checked+.radio-label:before {
+	background-color: #3197ee;
+	box-shadow: inset 0 0 0 4px #fff;
+	border: 3px solid #ddd;
+}
+/*.radio */
+input[type="radio"]:focus+.radio-label:before {
+	outline: none;
+	border: 3px solid #ddd;
+}
+/*.radio input[type="radio"]:disabled + .radio-label:before {
+	box-shadow: inset 0 0 0 4px #f4f4f4;
+	border-color: #b4b4b4;
+	background: #b4b4b4;
+}
+*/
+/* .radio input[type="radio"] + */
+.radio-label:empty:before {
+	margin-right: 0;
+	border: 3px solid #ddd;
+	background-color: #fff;
+	box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.1);
+}
+.section-text h2 {
+	color: black;
+}
+.section-text p {
+	color: black;
+	font-family: 'Myriad Pro Regular';
+	font-size: 14px;
+}
+.section-calc {
+	width: 100%;
+  padding-bottom: 80px;
+}
+.section-calc h2 {
+  padding-bottom: 20px;
+}
+.col {
+}
+.card-body {
+	padding: 1.25rem;
+}
+.card-img-top {
+	border-top-left-radius: calc(.25rem - 1px);
+	border-top-right-radius: calc(.25rem - 1px);
+	overflow: hidden;
+	text-align: center;
+	height: 175px;
+	position: relative;
+	width: 100%;
+}
+.card-img-top img {
+	height: 90px;
+}
+.card-img-top a {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+}
+.card {
+  margin: 12px;
+  height: 510px;
+  border-radius: .25rem;
+  display: flex;
+  flex-direction: column;
+  word-wrap: break-word;
+  background-color: #fff;
+  position: relative;
+  box-shadow: 0 0 9px rgba(0, 0, 0, 0.35);
+}
+.imglist {
+	display: flex;
+	justify-content: space-between;padding-bottom: 25px;
+}
+.rotate {
+	transform: rotate(-90deg);
+	-webkit-transform: rotate(-90deg);
+	-moz-transform: rotate(-90deg);
+	-ms-transform: rotate(-90deg);
+	-o-transform: rotate(-90deg);
+	filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+}
+.card img {
+	width: 105px;
+	left: 110px;
+	position: absolute;
+	top: 84px;
+}
+.card .tags {
+	width: min-content;
+	position: absolute;
+	left: -9px;
+	top: 92px;
+	font-size: 22px;
+	color: #636363;
+	font-family: 'Myriad Pro SemiboldIt';
+	left: 0px;
+	top: 165px;
+	line-height: 0;
+}
+.calcinputs input {
+	height: 39px;
+	width: 84px;
+	font-size: 36px;
+	border: 2px solid #a8a8a8;
+	font-family: 'Myriad Pro Regular';
+	border-radius: 10px;
+	text-align: center;
+}
+.calcinputs span {
+	font-size: 20px;
+	font-family: 'Myriad Pro Regular';
+}
+.calcinputs .XXX {
+	color: #0099de;
+	font-size: 45px;
+	font-family: 'Myriad Pro Bold';
+	width: 100%;
+	text-align: center;
+	top: -10px;
+	position: relative;
+}
+.calcinputs {
+	width: 255px;
+	height: 70px;
+	padding-left: 37px;
+	padding-top: 290px;
+}
+/*/
+///////////////*/
+.custom-select {
+  position: relative;
+  height: 45px;
+  width: 360px;left: 371px;
+  top: -173px;
+}
+.custom-select select {
+	display: none;
+	/*hide original SELECT element:*/
+}
+.select-selected {
+	background-color: white;
+	font-family: "Myriad Pro Regular";
+	font-size: 18px;
+}
+/*style the arrow inside the select element:*/
+.select-selected:after {
+	position: absolute;
+	content: "";
+	top: 16px;
+	right: 15px;
+	width: 0;
+	height: 0;
+	border: 14px solid transparent;
+	border-color: #aeaeae transparent transparent transparent;
+}
+/*point the arrow upwards when the select box is open (active):*/
+.select-selected.select-arrow-active:after {
+	border-color: transparent transparent #aeaeae transparent;
+	top: 7px;
+}
+/*style the items (options), including the selected item:*/
+.select-items div,.select-selected {
+	color: black;
+	padding: 8px 16px;
+	border: 1px solid transparent;
+	border-color: transparent transparent rgba(0, 0, 0, 0.1) transparent;
+	cursor: pointer;
+	user-select: none;
+	background-color: white;
+}
+.select-selected {
+	border: 2px solid #aeaeae;
+	border-radius: 10px;
+	height: 25px;
+	width: 324px;
+}
+/*style items (options):*/
+.select-items {
+	position: absolute;
+	background-color: white;
+	top: 100%;
+	left: 0;
+	right: 0;
+	z-index: 99;
+	height: 45px;
+	width: 360px;
+}
+/*hide the items when the select box is closed:*/
+.select-hide {
+	display: none;
+}
+.select-items div:hover,.same-as-selected {
+	background-color: #f7f7f7;
+}
+.card h2 {
+	color: black;
+}
+.form2-user {
+	width: 44px;
+	height: 44px;
+	background-color: #fff;
+	border-radius: 9px;
+	position: absolute;
+	margin: 1px;
+}
+.form2-user img {
+	width: 30px;
+	height: 30px;
+	background-size: auto;
+	position: relative;
+	top: 0;
+	left: 0;
+	padding: 7px;
+}
+.form2-tel {
+	height: 44px;
+	background-color: #c6c6c6;
+	border: 0;
+	padding-left: 63px;
+	border-radius: 9px;
+	font-size: 18px;
+	width: 216px;
+}
+.form2-submit {
+	height: 46px;
+	background-color: #9da3d7;
+	border: 0;
+	border-radius: 9px;
+	color: #fff;
+	font-family: 'Myriad Pro Bold';
+	width: 280px;
+	letter-spacing: 1px;
+	font-size: 20px;
+	left: 18px;
+	position: relative;
+	cursor: pointer;
+}
+header container {
+	position: relative;
+	top: 65px;
+}
+
+.form2-inputs::placeholder{
+  color:#5d5d5d;
+  opacity: 1;
+}
